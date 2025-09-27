@@ -78,3 +78,17 @@ padding: 1rem;
 .palestrantes li {
   margin-bottom: 0.5rem;
 }
+
+footer .redes-sociais {
+  margin-top: 0.5rem;
+}
+
+footer .redes-sociais a {
+  color: #fff;
+  margin: 0 0.5rem;
+  text-decoration: none;
+}
+
+footer .redes-sociais a:hover {
+  text-decoration: underline;
+}
