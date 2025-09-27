@@ -12,17 +12,37 @@ body {
   background: var(--cor-fundo);
   color: var(--cor-texto);
   margin: 0;
+  background-color: #e5e7eb; /* nova cor de fundo */
+}
+
+h2 {
+  color: blue;
+  padding-bottom: 10px;
 }
 
 header {
   background: var(--cor-header);
   padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 2px solid #d1d5db;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 1.5rem;
 }
 
 header nav a {
   margin-right: 1rem;
   text-decoration: none;
   color: var(--cor-link);
+  font-weight: 500;
+}
+
+header nav a:hover {
+  text-decoration: underline;
 }
 
 main {
